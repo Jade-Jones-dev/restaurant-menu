@@ -1,0 +1,9 @@
+$fonts: 'sans-serif';
+$spacing: 2rem;
+$primary-color: #ab99ca;
+
+body{
+    font-family: $fonts;
+    background-color: $primary-color;
+    padding: $spacing;
+}
