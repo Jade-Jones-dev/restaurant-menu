@@ -54,7 +54,8 @@
     }
 }
 
-.card__container{
+.cards{
     @extend %container;
+    background-color: lighten($main-color, 95%);
 
 }

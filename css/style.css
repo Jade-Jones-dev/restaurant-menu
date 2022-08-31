@@ -57,7 +57,7 @@ a {
   background-color: white;
 }
 
-footer, header, .card__container, .intro, .search, .booking__button {
+footer, header, .cards, .intro, .search, .booking__button {
   padding: 15px;
 }
 
@@ -104,6 +104,10 @@ footer, header, .card__container, .intro, .search, .booking__button {
 .intro__buttons {
   display: flex;
   flex-direction: column;
+}
+
+.cards {
+  background-color: #f2f2f2;
 }
 
 header {
