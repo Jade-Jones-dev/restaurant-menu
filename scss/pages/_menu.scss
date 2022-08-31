@@ -1,3 +1,13 @@
+.menu__header{
+    display: flex;
+    align-items: center;
+
+    a{
+        font-size: 26px;
+        position: absolute;
+        left: 30px;
+    }
+}
 .menu__image{
     img{
     width: 100%;
