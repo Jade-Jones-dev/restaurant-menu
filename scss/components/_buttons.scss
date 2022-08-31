@@ -1,4 +1,5 @@
 .booking__button{
+    @include box-shadow;
     @extend %container;
     color:$base-color;
     border:none;
@@ -9,8 +10,21 @@
     margin: auto;
     &:hover{
        background-image: linear-gradient($primary-color, $secondary-color);
-    }
+    }    
+}
 
-    
-    
+.intro__button{
+    @include box-shadow;
+    background-color: lighten($main-color, 95%);
+    border-radius: 40px;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 15px;
+    font-weight: 800;
+
+    &:hover{
+        background-color:lighten($primary-color, 90%);
+    }
 }

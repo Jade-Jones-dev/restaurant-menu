@@ -38,3 +38,23 @@
 
             }
         }
+
+.intro{
+    @extend %container;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+    &__title {
+        padding-bottom: 20px;
+            }
+    &__buttons{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.card__container{
+    @extend %container;
+
+}

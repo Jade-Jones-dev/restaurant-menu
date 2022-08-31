@@ -21,7 +21,13 @@ body {
   color: black;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .booking__button {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   color: white;
   border: none;
   border-radius: 30px;
@@ -36,7 +42,22 @@ body {
   background-image: linear-gradient(#9356dc, #ff79da);
 }
 
-footer, header, .search, .booking__button {
+.intro__button {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  background-color: #f2f2f2;
+  border-radius: 40px;
+  width: 100%;
+  border: none;
+  padding: 15px;
+  margin: auto;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+.intro__button:hover {
+  background-color: white;
+}
+
+footer, header, .card__container, .intro, .search, .booking__button {
   padding: 15px;
 }
 
@@ -69,6 +90,20 @@ footer, header, .search, .booking__button {
   border: none;
   background-color: #e6e6e6;
   padding-left: 20px;
+}
+
+.intro {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+}
+.intro__title {
+  padding-bottom: 20px;
+}
+.intro__buttons {
+  display: flex;
+  flex-direction: column;
 }
 
 header {
