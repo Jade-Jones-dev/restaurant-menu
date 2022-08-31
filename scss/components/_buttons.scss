@@ -15,7 +15,7 @@
 
 .intro__button{
     @include box-shadow;
-    background-color: lighten($main-color, 95%);
+    background:lighten($main-color, 95%);
     border-radius: 40px;
     width: 100%;
     border: none;
@@ -24,7 +24,7 @@
     margin-bottom: 15px;
     font-weight: 800;
 
-    &:hover{
-        background-color:lighten($primary-color, 90%);
-    }
+    &:hover {
+        background: $primary-color,
+        }
 }
