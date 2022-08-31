@@ -5,7 +5,7 @@
     border:none;
     border-radius: 30px;
     font-size: 20px;
-    width: fit-content;
+    width: 250px;
     background-image: linear-gradient($secondary-color, $primary-color);
     margin: auto;
     &:hover{
@@ -27,4 +27,20 @@
     &:hover {
         background: $primary-color,
         }
+}
+
+.menu__button {
+    @include box-shadow;
+    @extend %container;
+    color: $base-color;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    width: 150px;
+    background-image: linear-gradient($secondary-color, $primary-color);
+    margin: auto;
+
+    &:hover {
+        background-image: linear-gradient($primary-color, $secondary-color);
+    }
 }

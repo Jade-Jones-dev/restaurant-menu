@@ -35,9 +35,7 @@ a {
   border: none;
   border-radius: 30px;
   font-size: 20px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 250px;
   background-image: linear-gradient(#ff79da, #9356dc);
   margin: auto;
 }
@@ -60,7 +58,21 @@ a {
   background: #9356dc;
 }
 
-.card__intro, footer, header, .cards, .intro, .search, .booking__button {
+.menu__button {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  width: 150px;
+  background-image: linear-gradient(#ff79da, #9356dc);
+  margin: auto;
+}
+.menu__button:hover {
+  background-image: linear-gradient(#9356dc, #ff79da);
+}
+
+.menu, .card__intro, footer, header, .cards, .intro, .search, .booking__button, .menu__button {
   padding: 15px;
 }
 
@@ -184,4 +196,31 @@ footer h1 {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 20px 20px 0px 0px;
+}
+
+.menu__image img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  background-color: #f2f2f2;
+  flex-direction: column;
+  border-radius: 20px 20px 0 0;
+  justify-content: center;
+}
+.menu h2 {
+  font-family: "Shrikhand", cursive;
+}
+.menu__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu i {
+  font-size: 24px;
 }
