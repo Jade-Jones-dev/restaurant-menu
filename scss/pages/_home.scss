@@ -1,0 +1,46 @@
+header{
+    @extend %container;
+    display: flex;
+    justify-content: center;
+    img{
+        height: 30px;
+    }
+}
+
+footer{
+    @extend %container;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $main-color;
+    color: $base-color;
+    img{
+        color: $base-color;
+        height: 20px;
+        width:120px;
+        margin-bottom: 10px;
+    }
+     .footer__text{
+        display: flex;
+        flex-direction: row;
+        i{
+            padding-right: 10px;
+        }
+        h4{
+            line-height: 1.4;
+            font-weight: 800;
+        }
+        
+
+    }
+        p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        h1{
+            font-family: $title-font;
+            font-size:18px;
+            padding-bottom: 15px;
+        }
+}
