@@ -215,7 +215,7 @@ footer h1 {
   background-color: #f2f2f2;
   flex-direction: column;
   border-radius: 20px 20px 0 0;
-  justify-content: center;
+  justify-items: center;
 }
 .menus h2 {
   font-family: "Shrikhand", cursive;
@@ -233,6 +233,8 @@ footer h1 {
 
 .menu {
   padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 .menu__decoration {
   color: #99e2d0;

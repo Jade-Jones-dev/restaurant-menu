@@ -9,13 +9,12 @@
 
 .menus{
     width: 100%;
-   
     height: auto;
     display: flex;
     background-color: lighten($main-color, 95%);
     flex-direction: column;
     border-radius: 20px 20px 0 0;
-    justify-content: center;
+    justify-items: center;
     h2{
         font-family: $title-font;
         padding-bottom: 10px;
@@ -29,13 +28,12 @@
     i{
         font-size: 24px;
     }
-
-    
-
-    }
+}
 
 
 .menu{padding:10px;
+    display: flex;
+    flex-direction: column;
 
 &__decoration {
         color: $tertiary-color;
