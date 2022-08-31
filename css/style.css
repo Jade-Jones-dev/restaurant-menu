@@ -253,13 +253,14 @@ footer h1 {
   padding-bottom: 10px;
 }
 .menu .menu__section {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   width: 100%;
   display: flex;
   justify-content: space-between;
   background-color: white;
   align-items: flex-end;
   border-radius: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .menu__text {
   display: flex;

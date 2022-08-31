@@ -41,7 +41,9 @@
 }
 
 
-.menu{padding:10px;
+.menu{
+    
+    padding:10px;
     display: flex;
     flex-direction: column;
 
@@ -54,13 +56,14 @@
 
     .menu__section {
         @extend %container;
+        @include box-shadow;
         width: 100%;
         display: flex;
         justify-content: space-between;
         background-color: $base-color;
         align-items: flex-end;
         border-radius: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     &__text {
