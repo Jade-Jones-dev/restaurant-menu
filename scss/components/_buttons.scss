@@ -1,0 +1,16 @@
+.booking__button{
+    @extend %container;
+    color:$base-color;
+    border:none;
+    border-radius: 30px;
+    font-size: 20px;
+    width: fit-content;
+    background-image: linear-gradient($secondary-color, $primary-color);
+    margin: auto;
+    &:hover{
+       background-image: linear-gradient($primary-color, $secondary-color);
+    }
+
+    
+    
+}

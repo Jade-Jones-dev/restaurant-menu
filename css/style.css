@@ -9,11 +9,39 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-footer, header, .booking__container {
-  padding: 20px;
+::-moz-placeholder {
+  color: black;
 }
 
-.booking__container {
+:-ms-input-placeholder {
+  color: black;
+}
+
+::placeholder {
+  color: black;
+}
+
+.booking__button {
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-image: linear-gradient(#ff79da, #9356dc);
+  margin: auto;
+}
+.booking__button:hover {
+  background-image: linear-gradient(#9356dc, #ff79da);
+}
+
+footer, header, .search, .booking__button {
+  padding: 15px;
+}
+
+.booking {
+  padding: 30px;
   background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
@@ -21,10 +49,26 @@ footer, header, .booking__container {
   align-items: space-between;
   text-align: center;
 }
-.booking__container h2 {
-  padding-bottom: 15px;
+.booking__title {
+  padding-bottom: 20px;
   font-size: 20px;
   font-weight: 900;
+  letter-spacing: -1px;
+}
+.booking p {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.search {
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: center;
+}
+.search input {
+  border: none;
+  background-color: #e6e6e6;
+  padding-left: 20px;
 }
 
 header {
