@@ -7,9 +7,10 @@
 
 }
 
-.menu{
-    @extend %container;
+.menus{
     width: 100%;
+   
+    height: auto;
     display: flex;
     background-color: lighten($main-color, 95%);
     flex-direction: column;
@@ -17,13 +18,55 @@
     justify-content: center;
     h2{
         font-family: $title-font;
+        padding-bottom: 10px;
     }
     &__header{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 10px;
     }
     i{
         font-size: 24px;
     }
+
+    
+
+    }
+
+
+.menu{padding:10px;
+
+&__decoration {
+        color: $tertiary-color;
+        font-size: larger;
+        font-weight: bolder;
+        padding-bottom: 10px;
+    }
+
+    .menu__section {
+        @extend %container;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: $base-color;
+        align-items: flex-end;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+            font-size: 20px;
+            font-weight: 900;
+            padding-bottom: 5px;
+        }
+
+        p {
+            font-weight: 100;
+        }
+}
 }

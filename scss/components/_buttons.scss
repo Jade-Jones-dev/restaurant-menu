@@ -29,7 +29,7 @@
         }
 }
 
-.menu__button {
+.menus__button {
     @include box-shadow;
     @extend %container;
     color: $base-color;
@@ -39,6 +39,8 @@
     width: 150px;
     background-image: linear-gradient($secondary-color, $primary-color);
     margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
     &:hover {
         background-image: linear-gradient($primary-color, $secondary-color);
