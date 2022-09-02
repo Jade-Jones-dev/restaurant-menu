@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Shrikhand&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,23 +11,23 @@ body {
 }
 
 ::-moz-placeholder {
-  color: black;
+  color: #333333;
   font-size: 16px;
 }
 
 :-ms-input-placeholder {
-  color: black;
+  color: #333333;
   font-size: 16px;
 }
 
 ::placeholder {
-  color: black;
+  color: #333333;
   font-size: 16px;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #333333;
 }
 
 .booking__button {
@@ -46,16 +46,16 @@ a {
 
 .intro__button {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-  position: relative;
   display: flex;
-  width: 85%;
+  width: 90%;
   align-items: center;
-  background: #f2f2f2;
+  background: white;
   border-radius: 40px;
   border: none;
   padding: 15px;
   margin: auto;
-  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-bottom: 20px;
   font-weight: 800;
 }
 .intro__button i {
@@ -66,15 +66,6 @@ a {
 }
 .intro__button:hover {
   background: white;
-}
-
-.buttons {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  margin: auto;
-  margin-left: 20px;
-  width: 100%;
 }
 
 .abc {
@@ -89,8 +80,8 @@ a {
   color: white;
   z-index: 100;
   font-size: 12px;
-  margin-left: -25px;
-  position: fixed;
+  margin-left: -20px;
+  position: absolute;
 }
 
 .menus__button {
@@ -175,7 +166,7 @@ footer {
   display: flex;
   width: 100%;
   flex-direction: column;
-  background-color: black;
+  background-color: #333333;
   color: white;
 }
 footer img {
@@ -262,7 +253,7 @@ footer a {
   top: -40px;
   height: auto;
   display: flex;
-  background-color: #f2f2f2;
+  background-color: white;
   flex-direction: column;
   border-radius: 30px 30px 0 0;
   justify-items: center;

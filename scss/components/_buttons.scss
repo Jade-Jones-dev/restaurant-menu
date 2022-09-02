@@ -15,16 +15,16 @@
 
 .intro__button{
     @include box-shadow;
-    position:relative;
     display: flex;
-    width: 85%;
+    width: 90%;
     align-items: center;
     background:lighten($main-color, 95%);
     border-radius: 40px;
     border: none;
     padding: 15px;
     margin: auto;
-    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
     font-weight: 800;
 
             i{
@@ -40,15 +40,7 @@
         }
 }
 
-.buttons{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    margin: auto;
-    margin-left:20px;
-    width:100%;
-            
-}
+
 
 .abc {
     display: flex;
@@ -62,8 +54,8 @@
     color: $base-color;
     z-index: 100;
     font-size: 12px;
-    margin-left: -25px;
-    position: fixed;
+    margin-left: -20px;
+    position: absolute;
 
 }
 
