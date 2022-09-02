@@ -10,6 +10,7 @@
     margin: auto;
     &:hover{
        background-image: linear-gradient($primary-color, $secondary-color);
+       box-shadow: 0 5px 15px rgb(0 0 0 / 0.4);
     }    
 }
 
@@ -36,7 +37,8 @@
     
 
     &:hover {
-        background: $primary-light,
+            background-image: linear-gradient($primary-color, $secondary-color);
+        box-shadow: 0 5px 15px rgb(0 0 0 / 0.4);
         }
 }
 
