@@ -46,14 +46,15 @@
     justify-content: center;
     flex-direction: column;
     margin: auto;
-    &__title {
-        padding-bottom: 20px;
-            }
     &__buttons{
         display: flex;
         flex-direction: column;
     }
+    h2{
+        padding-left: 30px;
+    }
 }
+
 
 .cards{
     @extend %container;
