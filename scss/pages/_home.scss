@@ -34,7 +34,7 @@ footer{
 
     }
         p {
-            font-size: 14px;
+            font-size: 16px;
             line-height: 1.6;
         }
 
@@ -43,6 +43,11 @@ footer{
             font-size:18px;
             padding-bottom: 15px;
         }
+
+        a{
+            color: $base-color;
+        }
+
 }
 
 .cards{
@@ -78,4 +83,7 @@ footer{
         border-radius: 20px 20px 0px 0px;
     }
 
+    
+
 }
+

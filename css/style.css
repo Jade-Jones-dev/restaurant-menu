@@ -194,13 +194,16 @@ footer .footer__text h4 {
   font-weight: 800;
 }
 footer p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
 }
 footer h1 {
   font-family: "Shrikhand", cursive;
   font-size: 18px;
   padding-bottom: 15px;
+}
+footer a {
+  color: white;
 }
 
 .cards h2 {
