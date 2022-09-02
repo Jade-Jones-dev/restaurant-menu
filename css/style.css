@@ -46,6 +46,7 @@ a {
 
 .intro__button {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
   display: flex;
   width: 85%;
   align-items: center;
@@ -75,7 +76,8 @@ a {
   margin-left: 20px;
   width: 100%;
 }
-.buttons p {
+
+.abc {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,10 +87,10 @@ a {
   background-color: #9356dc;
   border-radius: 50%;
   color: white;
-  margin-right: -60px;
   z-index: 100;
   font-size: 12px;
-  margin-bottom: 12px;
+  margin-left: -25px;
+  position: fixed;
 }
 
 .menus__button {
