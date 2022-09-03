@@ -10,16 +10,46 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+@media screen and (min-width: 600px) {
+  html {
+    background-image: url(../images/arthouse-stone-concrete-industrial-vinyl-grey-wallpaper-p6665-18843_image.jpeg);
+    width: 100%;
+  }
+  header {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+  }
+  .search {
+    width: 70%;
+    margin: auto;
+  }
+  .booking {
+    width: 70%;
+    margin: auto;
+  }
+  .intro {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+  }
+  .cards {
+    width: 70%;
+    margin: auto;
+  }
+  .footer {
+    width: 70%;
+    margin: auto;
+  }
+}
 ::-moz-placeholder {
   color: #333333;
   font-size: 16px;
 }
-
 :-ms-input-placeholder {
   color: #333333;
   font-size: 16px;
 }
-
 ::placeholder {
   color: #333333;
   font-size: 16px;
@@ -55,7 +85,6 @@ a {
   border: none;
   padding: 15px;
   margin: auto;
-  margin-left: 20px;
   margin-bottom: 20px;
   font-weight: 800;
 }
@@ -144,12 +173,12 @@ a {
   flex-direction: column;
   margin: auto;
 }
-.intro__title {
-  padding-bottom: 20px;
-}
 .intro__buttons {
   display: flex;
   flex-direction: column;
+}
+.intro h2 {
+  padding-left: 30px;
 }
 
 .cards {

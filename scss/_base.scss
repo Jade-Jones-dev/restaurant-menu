@@ -9,10 +9,47 @@ body{
     font-family: $main-font;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 600px) {
 html {
-        background-image: url(html/arthouse-stone-concrete-industrial-vinyl-grey-wallpaper-p6665-18843_image.jpeg)
+        background-image: url(../images/arthouse-stone-concrete-industrial-vinyl-grey-wallpaper-p6665-18843_image.jpeg);
+        width: 100%;
+
     }
+
+    header{
+        width:70%;
+        margin:auto;
+        background-color: $base-color;
+    }
+
+    .search{
+        width: 70%;
+        margin: auto;
+    }
+
+    .booking{
+        width:70%;
+        margin: auto;
+    }
+
+    .intro{
+        width: 70%;
+        margin: auto;
+        background-color: $base-color;
+    }
+
+    .cards{
+        width: 70%;
+        margin: auto;
+    }
+
+    .footer{
+        width: 70%;
+        margin: auto;
+    }
+
+
+
 }
 
 
