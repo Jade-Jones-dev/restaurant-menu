@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: $main-font;
+}
+
+@media screen and (min-width: 720px) {
+html {
+        background-image: url(html/arthouse-stone-concrete-industrial-vinyl-grey-wallpaper-p6665-18843_image.jpeg)
+    }
+}
+
+
