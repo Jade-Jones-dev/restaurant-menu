@@ -11,8 +11,10 @@ body{
 
 @media screen and (min-width: 600px) {
 html {
-        background-image: url(../images/arthouse-stone-concrete-industrial-vinyl-grey-wallpaper-p6665-18843_image.jpeg);
+        background-image: url(../images/nordwood-themes-KcsKWw77Ovw-unsplash.jpg);
         width: 100%;
+        object-fit: cover;
+        
 
     }
 
@@ -43,10 +45,28 @@ html {
         margin: auto;
     }
 
-    .footer{
+    footer{
         width: 70%;
         margin: auto;
     }
+
+    .footer__text{
+        width: 70%;
+        margin: auto;
+    }
+
+
+    footer a{
+        width: 70%;
+        margin: auto;
+    }
+
+    footer h2{
+        width: 70%;
+        margin: auto;
+    }
+
+
 
 
 
