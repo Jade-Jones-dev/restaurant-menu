@@ -326,7 +326,7 @@ footer a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
 }
 .menus i {
   font-size: 24px;
