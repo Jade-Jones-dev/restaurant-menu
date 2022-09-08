@@ -17,6 +17,7 @@
 }
 
 .menus{
+    
     position: relative;
     top:-40px;
     height: auto;
@@ -43,8 +44,7 @@
 
 
 .menu{
-    
-    padding:10px;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
 

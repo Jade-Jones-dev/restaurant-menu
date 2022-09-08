@@ -18,41 +18,49 @@ body {
        object-fit: cover;
   }
   header {
-    width: 70%;
+    width: 60%;
     margin: auto;
     background-color: white;
   }
   .search {
-    width: 70%;
+    width: 60%;
     margin: auto;
   }
   .booking {
-    width: 70%;
+    width: 60%;
     margin: auto;
   }
   .intro {
-    width: 70%;
+    width: 60%;
     margin: auto;
     background-color: white;
   }
   .cards {
-    width: 70%;
+    width: 60%;
     margin: auto;
   }
   footer {
-    width: 70%;
+    width: 60%;
     margin: auto;
   }
   .footer__text {
-    width: 70%;
+    width: 60%;
+    margin: auto;
+  }
+  .menu__image {
+    width: 60%;
+    margin: auto;
+  }
+  .menus {
+    width: 60%;
     margin: auto;
   }
   footer a {
-    width: 70%;
+    width: 60%;
     margin: auto;
   }
   footer h2 {
-    width: 70%;
+    width: 60%;
     margin: auto;
   }
   .card i {
@@ -300,7 +308,6 @@ footer a {
 }
 
 .menus {
-  width: 100%;
   position: relative;
   top: -40px;
   height: auto;
@@ -319,14 +326,14 @@ footer a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
 }
 .menus i {
   font-size: 24px;
 }
 
 .menu {
-  padding: 10px;
+  padding: 0 20px;
   display: flex;
   flex-direction: column;
 }
