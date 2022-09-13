@@ -82,14 +82,14 @@ a{
         display: flex;
         flex-direction: column;
 
-        h3 {
-            font-size: 20px;
-            font-weight: 900;
-            padding-bottom: 5px;
-        }
-
-        p {
-            font-weight: 100;
-        }
 }
+}
+
+.menu__section h3{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.menu__text p{
+    font-weight: 300;
 }
