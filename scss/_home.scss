@@ -91,8 +91,13 @@ footer{
     font-weight: 400;
 }
 
-.card i:hover{
+// transitions for heart
+
+.fa-heart{
+    transition: background-color 3s;
+}
+.fa-heart:hover{
     background-color: red;
-    transition: background-color 2s;
+    transition: background-color 3s;
 }
 

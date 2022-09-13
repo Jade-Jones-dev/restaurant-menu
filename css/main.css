@@ -290,9 +290,13 @@ footer a {
   font-weight: 400;
 }
 
-.card i:hover {
+.fa-heart {
+  transition: background-color 3s;
+}
+
+.fa-heart:hover {
   background-color: red;
-  transition: background-color 2s;
+  transition: background-color 3s;
 }
 
 .menu__header {
