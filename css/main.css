@@ -1,4 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&family=Shrikhand&display=swap");
+@-webkit-keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.menu__section {
+  -webkit-animation: 1.5s ease-out 0s 1 slideInFromLeft;
+          animation: 1.5s ease-out 0s 1 slideInFromLeft;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
