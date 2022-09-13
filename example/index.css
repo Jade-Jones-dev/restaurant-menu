@@ -1,0 +1,31 @@
+:root {
+    --main-clr: red;
+    --scnd-clr: salmon;
+    --tert-clr: magenta;
+}
+
+body{
+    background-color: var(--main-clr;
+}
+
+.container{
+
+}
+
+@keyframes clockwise{
+    0% {
+
+    }
+
+    25% {
+
+    }
+
+    50% {
+
+    }
+
+    100% {
+        
+    }
+}
