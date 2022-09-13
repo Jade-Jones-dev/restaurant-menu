@@ -157,6 +157,15 @@ a {
   background-image: linear-gradient(#9356dc, #ff79da);
 }
 
+.fa-heart {
+  transition: background-color 3s;
+}
+
+.fa-heart:hover {
+  background-color: red;
+  transition: background-color 3s;
+}
+
 .menu .menu__section, .card__intro, footer, header, .cards, .intro, .search, .booking__button, .menus__button {
   padding: 15px;
 }
@@ -288,15 +297,6 @@ footer a {
 
 .card__p {
   font-weight: 400;
-}
-
-.fa-heart {
-  transition: background-color 3s;
-}
-
-.fa-heart:hover {
-  background-color: red;
-  transition: background-color 3s;
 }
 
 .menu__header {

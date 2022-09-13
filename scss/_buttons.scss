@@ -78,3 +78,13 @@
     }
 }
 
+// transitions for heart
+
+.fa-heart{
+    transition: background-color 3s;
+}
+.fa-heart:hover{
+    background-color: red;
+    transition: background-color 3s;
+}
+
