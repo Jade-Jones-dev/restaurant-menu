@@ -240,7 +240,7 @@ header img {
 }
 
 .search {
-  box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.1) inset;
 }
 
 footer {
