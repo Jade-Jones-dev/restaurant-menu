@@ -1,7 +1,14 @@
 .menu__header{
     display: flex;
-    align-items: center; 
+    align-items: center;
+    position: relative; 
+a{
+    position: absolute;
+    left:20px;
+    font-size: 20px;
 }
+}
+
 .menu__image{
     img{
     width: 100%;

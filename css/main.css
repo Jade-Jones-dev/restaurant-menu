@@ -17,7 +17,7 @@ body {
     -o-object-fit: cover;
        object-fit: cover;
   }
-  header {
+  .menu__header {
     width: 60%;
     margin: auto;
     background-color: white;
@@ -302,11 +302,12 @@ footer a {
 .menu__header {
   display: flex;
   align-items: center;
+  position: relative;
 }
 .menu__header a {
-  font-size: 26px;
   position: absolute;
-  left: 30px;
+  left: 20px;
+  font-size: 20px;
 }
 
 .menu__image img {
