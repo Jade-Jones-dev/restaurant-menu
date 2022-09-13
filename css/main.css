@@ -17,6 +17,11 @@ body {
     -o-object-fit: cover;
        object-fit: cover;
   }
+  header {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+  }
   .menu__header {
     width: 60%;
     margin: auto;
@@ -99,6 +104,7 @@ a {
 .booking__button:hover {
   background-image: linear-gradient(#9356dc, #ff79da);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
 }
 
 .intro__button {
@@ -226,6 +232,10 @@ header {
 }
 header img {
   height: 30px;
+}
+
+.search {
+  box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.2) inset;
 }
 
 footer {
