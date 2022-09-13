@@ -364,11 +364,17 @@ footer a {
   display: flex;
   flex-direction: column;
 }
+.menu h4 {
+  font-weight: 200;
+  margin-bottom: 0;
+}
 .menu__decoration {
   color: #99e2d0;
   font-size: larger;
   font-weight: bolder;
   padding-bottom: 10px;
+  line-height: 0.2;
+  margin-bottom: 10px;
 }
 .menu .menu__section {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);

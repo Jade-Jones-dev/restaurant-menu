@@ -51,12 +51,19 @@ a{
     padding: 0 20px;
     display: flex;
     flex-direction: column;
+    h4{
+        font-weight: 200;
+        margin-bottom: 0;
+    }
 
 &__decoration {
         color: $tertiary-color;
         font-size: larger;
         font-weight: bolder;
         padding-bottom: 10px;
+        line-height: 0.2;
+        margin-bottom: 10px;
+
     }
 
     .menu__section {
