@@ -5,16 +5,26 @@
 }
 
 body{
-    background-color: var(--main-clr;
+    background-color: var(--scnd-clr)
 }
 
 .container{
+    position: relative;
+}
 
+.child img{
+    width:200px;
+  
+}
+
+.container:hover .child img{
+    animation: clockwise 5s forwards;
+    
 }
 
 @keyframes clockwise{
     0% {
-
+        transform: rotate(0deg);
     }
 
     25% {
@@ -26,6 +36,6 @@ body{
     }
 
     100% {
-        
+        transform: rotate(1440deg);
     }
 }
