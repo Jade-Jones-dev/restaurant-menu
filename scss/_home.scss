@@ -91,3 +91,8 @@ footer{
     font-weight: 400;
 }
 
+.card i:hover{
+    background-color: red;
+    transition: background-color 2s;
+}
+
