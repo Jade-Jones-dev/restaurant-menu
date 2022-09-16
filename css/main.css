@@ -345,7 +345,7 @@ footer a {
 
 .menu__header {
   display: flex;
-  align-items: center;
+  align-content: center;
   position: relative;
 }
 .menu__header a {
@@ -379,12 +379,13 @@ footer a {
 .menus__header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-content: center;
   padding: 20px;
 }
 .menus i {
   font-size: 24px;
   padding-left: 5px;
+  padding-top: 3px;
 }
 
 .menu {

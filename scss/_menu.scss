@@ -1,6 +1,6 @@
 .menu__header{
     display: flex;
-    align-items: center;
+    align-content: center;
     position: relative; 
 a{
     position: absolute;
@@ -36,12 +36,13 @@ a{
     &__header{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-content: center;
         padding: 20px;
     }
     i{
         font-size: 24px;
         padding-left: 5px;
+        padding-top: 3px;
         
     }
 }
