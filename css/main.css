@@ -180,11 +180,11 @@ a {
   border: none;
   border-radius: 30px;
   font-size: 20px;
-  width: 150px;
+  width: 200px;
   background-image: linear-gradient(#ff79da, #9356dc);
   margin: auto;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
   box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.2);
 }
 .menus__button:hover {
@@ -421,6 +421,7 @@ footer a {
 }
 
 .menu__section h3 {
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: 5px;
 }
