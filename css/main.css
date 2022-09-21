@@ -1,31 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&family=Shrikhand&display=swap");
-@-webkit-keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-    transform: translateY(25%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-    transform: translateY(25%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.menu__section {
-  -webkit-animation: 1s ease-in 0s 1 fadeInAnimation;
-          animation: 1s ease-in 0s 1 fadeInAnimation;
-  -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -444,4 +417,47 @@ footer a {
   font-weight: 300;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+
+@-webkit-keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.menu__section {
+  -webkit-animation: 1s ease-in 0s 1 fadeInAnimation;
+          animation: 1s ease-in 0s 1 fadeInAnimation;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.animation-delay-1 {
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+}
+
+.animation-delay-2 {
+  -webkit-animation-delay: 1200ms;
+          animation-delay: 1200ms;
+}
+
+.animation-delay-3 {
+  -webkit-animation-delay: 1800ms;
+          animation-delay: 1800ms;
 }
