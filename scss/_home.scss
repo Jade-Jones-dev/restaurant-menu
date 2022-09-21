@@ -11,6 +11,20 @@ header{
     box-shadow: 0px 5px 5px rgb(0 0 0 / 0.1) inset;
 }
 
+.new-image{
+    position: relative;
+}
+
+.new-image h4{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background-color: $tertiary-color;
+    padding: 7px 25px;
+    color: #1a5b4b;
+
+}
+
 footer{
     @extend %container;
     display: flex;
