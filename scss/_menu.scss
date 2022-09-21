@@ -95,4 +95,6 @@ a{
 
 .menu__text p{
     font-weight: 300;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
