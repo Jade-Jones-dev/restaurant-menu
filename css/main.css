@@ -165,6 +165,10 @@ a {
   box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.4);
 }
 
+.outline-heart:hover {
+  display: none;
+}
+
 .solid-heart:hover {
   background: -webkit-linear-gradient(#9356dc, #ff79da);
   -webkit-background-clip: text;
