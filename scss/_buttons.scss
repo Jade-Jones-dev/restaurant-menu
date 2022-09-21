@@ -84,8 +84,16 @@
 
 // transitions for heart
 
+.heart-icon{
+    border: none;
+    padding:5px;
+
+
+}
+
 .outline-heart:hover{
     display: none;
+
 
 }
 .solid-heart:hover{
