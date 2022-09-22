@@ -157,35 +157,46 @@ a {
   box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.4);
 }
 
-.heart-icon {
-  border: none;
-  padding: 5px;
-  position: relative;
-  height: 50px;
-  width: 50px;
+.heart-transform {
+  border: inline-block;
+  position: absolute;
+  font-size: 20px;
+  right: 10px;
+  margin-top: 2px;
+  padding-bottom: 1.5rem;
 }
 
-.outline-heart {
-  opacity: 1;
-}
-
-.outline-heart:hover {
+.solid {
+  position: absolute;
+  right: 15px;
   opacity: 0;
-}
-
-.solid-heart {
-  color: white;
-  opacity: 0;
-}
-
-.solid-heart:hover {
-  background: -webkit-linear-gradient(#9356dc, #ff79da);
-  background-clip: text;
+  background: linear-gradient(to top, #9356dc, #ff79da);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: transparent;
-  opacity: 1;
-  transition: 2s ease-in;
+  transition: opacity 3s;
+}
+
+.solid:hover {
+  position: absolute;
+  opacity: 100%;
+  background: linear-gradient(to top, #9356dc, #ff79da);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: opacity 3s;
+}
+
+.outline {
+  position: absolute;
+  right: 15px;
+  opacity: 100%;
+  transition: opacity 3s;
+}
+
+.outline:hover {
+  opacity: 0;
+  transition: opacity 3s;
 }
 
 .menu .menu__section, .card__intro, footer, header, .cards, .intro, .search, .booking__button, .menus__button {
@@ -254,7 +265,7 @@ header img {
 }
 
 .search {
-  box-shadow: 0px -8px 10px -6px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0px 7px 9px -7px rgba(0, 0, 0, 0.1) inset;
 }
 
 .new-image {
@@ -412,6 +423,8 @@ footer a {
   align-items: flex-end;
   border-radius: 20px;
   margin-bottom: 15px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .menu__text {
   display: flex;
@@ -428,6 +441,44 @@ footer a {
   font-weight: 300;
   white-space: nowrap;
   text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.checkmark {
+  display: none;
+}
+
+.menu__section:hover .menu__price {
+  position: absolute;
+  right: 100px;
+}
+
+.menu__section:hover .menu__text {
+  width: 150px;
+}
+
+.menu__section:hover .checkmark {
+  display: flex;
+  width: 60px;
+  height: 78px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: #99e2d0;
+  margin-right: -15px;
+  margin-bottom: -15px;
+  margin-top: -15px;
+  border-radius: 0 20px 20px 0;
+}
+
+.checkmark i {
+  font-size: 30px;
+  color: white;
+  background-color: transparent;
+}
+
+.checkmark i:hover {
+  animation: spin2 3s ease-in forwards;
 }
 
 @keyframes fadeInAnimation {
@@ -517,6 +568,20 @@ animation-fill-mode: forwards;
 
 @keyframes spin {
   0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  75% {
     transform: rotate(0deg);
   }
   100% {

@@ -84,38 +84,47 @@
 
 // transitions for heart
 
-.heart-icon{
-    border: none;
-    padding:5px;
-    position: relative;
-    height:50px;
-    width:50px;
+.heart-transform{
+    border: inline-block;
+    position: absolute;
+    font-size: 20px;
+    right:10px;
+    margin-top: 2px;
+    padding-bottom: 1.5rem;
 }
 
-.outline-heart{
-    opacity: 1;
-   
-}
-
-.outline-heart:hover{
+.solid{
+    position: absolute;
+    right: 15px;
     opacity: 0;
-
-
-}
-
-.solid-heart{
-    color: white;
-    //color: lighten($main-color, 78%);
-    opacity: 0;
-}
-.solid-heart:hover{
-    background: -webkit-linear-gradient($primary-color, $secondary-color);
-    background-clip: text;
+    background: linear-gradient(to top,$primary-color, $secondary-color);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
-    color:transparent;
-    opacity: 1;
-    transition: 2s ease-in ;
+    transition: opacity 3s; 
+}
+
+.solid:hover{
+    position: absolute;
+    opacity: 100%;
+    background: linear-gradient(to top,$primary-color, $secondary-color);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: opacity 3s; 
+}
+
+.outline{
+    position: absolute;
+    right:15px;
+    opacity: 100%;
+    transition: opacity 3s;
+
+}
+
+.outline:hover{
+    opacity: 0;
+    transition: opacity 3s;
 }
 
 

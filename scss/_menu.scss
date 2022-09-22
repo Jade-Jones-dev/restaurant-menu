@@ -78,6 +78,8 @@ a{
         align-items: flex-end;
         border-radius: 20px;
         margin-bottom: 15px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
     &__text {
         display: flex;
@@ -95,4 +97,47 @@ a{
     font-weight: 300;
     white-space: nowrap;
     text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.checkmark{
+    display: none;
+}
+
+.menu__section:hover .menu__price{
+    position: absolute;
+    right:100px;
+}
+
+.menu__section:hover .menu__text{
+    width: 150px;
+}
+
+.menu__section:hover .checkmark{
+    display: flex;
+    width: 60px;
+    height:78px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: $tertiary-color;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-top: -15px;
+    border-radius: 0 20px 20px 0;
+}
+
+
+
+
+.checkmark i{
+    font-size: 30px;
+    color: $base-color;
+    background-color: transparent;
+}
+
+
+
+.checkmark i:hover{
+    animation: spin2 3s ease-in forwards;
 }
