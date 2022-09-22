@@ -124,7 +124,9 @@ a{
     margin-top: -15px;
     border-radius: 0 20px 20px 0;
     opacity: 100%;
-    animation: fadeIn ease 3s;
+    animation: fadeIn ease-in 500ms;
+    // need to look at reverse function and bring in from right
+  
 }
 
 .checkmark i{
