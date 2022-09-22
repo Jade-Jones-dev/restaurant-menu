@@ -8,13 +8,15 @@ header{
 }
 
 .search{
-    box-shadow: 0px 5px 5px rgb(0 0 0 / 0.1) inset;
+    box-shadow: 0px -8px 10px -6px rgb(0 0 0 / 0.1) inset;
 }
 
 .new-image{
     position: relative;
 }
-
+animation: 5s ease 0s 1 fadeInAnimation2;
+animation-fill-mode: backwards;
+animation-delay: 3s;
 .new-image h4{
     position: absolute;
     right: 20px;

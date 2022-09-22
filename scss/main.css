@@ -1,0 +1,495 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&family=Shrikhand&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    background-image: url(../images/nordwood-themes-KcsKWw77Ovw-unsplash.jpg);
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  header {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+  }
+  .menu__header {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+  }
+  .search {
+    width: 60%;
+    margin: auto;
+  }
+  .booking {
+    width: 60%;
+    margin: auto;
+  }
+  .intro {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+  }
+  .cards {
+    width: 60%;
+    margin: auto;
+  }
+  footer {
+    width: 60%;
+    margin: auto;
+  }
+  .footer__text {
+    width: 60%;
+    margin: auto;
+  }
+  .menu__image {
+    width: 60%;
+    margin: auto;
+  }
+  .menus {
+    width: 60%;
+    margin: auto;
+  }
+  footer a {
+    width: 60%;
+    margin: auto;
+  }
+  footer h2 {
+    width: 60%;
+    margin: auto;
+  }
+  .card i {
+    font-size: 30px;
+    font-weight: 100;
+  }
+}
+::-moz-placeholder {
+  color: #333333;
+  font-size: 16px;
+}
+:-ms-input-placeholder {
+  color: #333333;
+  font-size: 16px;
+}
+::placeholder {
+  color: #333333;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.booking__button {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  width: 250px;
+  background-image: linear-gradient(#ff79da, #9356dc);
+  margin: auto;
+}
+.booking__button:hover {
+  background-image: linear-gradient(#9356dc, #ff79da);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.intro__button {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  width: 90%;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 40px;
+  border: none;
+  padding: 15px;
+  margin: auto;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+.intro__button i {
+  color: #9356dc;
+  font-size: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.intro__button:hover {
+  background-color: #e4d5f6;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.abc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 20px;
+  width: 20px;
+  background-color: #9356dc;
+  border-radius: 50%;
+  color: white;
+  z-index: 100;
+  font-size: 12px;
+  margin-left: -20px;
+  position: absolute;
+}
+
+.menus__button {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  width: 200px;
+  background-image: linear-gradient(#ff79da, #9356dc);
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.2);
+}
+.menus__button:hover {
+  background-image: linear-gradient(#9356dc, #ff79da);
+  cursor: pointer;
+  box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.4);
+}
+
+.heart-icon {
+  border: none;
+  padding: 5px;
+}
+
+.outline-heart:hover {
+  display: none;
+}
+
+.solid-heart:hover {
+  background: -webkit-linear-gradient(#9356dc, #ff79da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 5s;
+}
+
+.menu .menu__section, .card__intro, footer, header, .cards, .intro, .search, .booking__button, .menus__button {
+  padding: 15px;
+}
+
+.booking {
+  padding: 30px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  text-align: center;
+}
+.booking__title {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+.booking p {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.search {
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: center;
+}
+.search input {
+  border: none;
+  background-color: #e6e6e6;
+  padding-left: 20px;
+}
+
+.intro {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+.intro__buttons {
+  display: flex;
+  flex-direction: column;
+}
+.intro h2 {
+  padding-left: 30px;
+}
+.intro__title {
+  padding-bottom: 10px;
+}
+
+.cards {
+  background-color: #f2f2f2;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+header img {
+  height: 30px;
+}
+
+.search {
+  box-shadow: 0px -8px 10px -6px rgba(0, 0, 0, 0.1) inset;
+}
+
+.new-image {
+  position: relative;
+}
+
+.new-image h4 {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  background-color: #99e2d0;
+  padding: 7px 25px;
+  color: #1a5b4b;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: #333333;
+  color: white;
+}
+footer img {
+  color: white;
+  height: 20px;
+  width: 120px;
+  margin-bottom: 10px;
+}
+footer .footer__text {
+  display: flex;
+  flex-direction: row;
+}
+footer .footer__text i {
+  padding-right: 10px;
+}
+footer .footer__text h4 {
+  line-height: 1.4;
+}
+footer p {
+  font-size: 16px;
+  line-height: 1.3;
+}
+footer h2 {
+  font-family: "Shrikhand", cursive;
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+footer a {
+  color: white;
+  margin-bottom: 2px;
+}
+
+.cards h2 {
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.card {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  margin: auto;
+  border-radius: 20px 20px 20px 20px;
+  margin-bottom: 20px;
+}
+.card__intro {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 20px 20px;
+}
+.card__title {
+  padding-bottom: 5px;
+}
+.card img {
+  height: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.card__p {
+  font-weight: 400;
+}
+
+.menu__header {
+  display: flex;
+  align-content: center;
+  position: relative;
+}
+.menu__header a {
+  position: absolute;
+  left: 20px;
+  font-size: 20px;
+}
+
+.menu__image img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.menus {
+  position: relative;
+  top: -40px;
+  height: auto;
+  display: flex;
+  background-color: #fafafa;
+  flex-direction: column;
+  border-radius: 30px 30px 0 0;
+  justify-items: center;
+  margin-bottom: -40px;
+}
+.menus h2 {
+  font-family: "Shrikhand", cursive;
+  padding-bottom: 10px;
+}
+.menus__header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20px;
+}
+.menus i {
+  font-size: 24px;
+  padding-left: 5px;
+  padding-top: 3px;
+}
+
+.menu {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+.menu h4 {
+  font-weight: 200;
+  margin-bottom: 0;
+  padding-top: 25px;
+}
+.menu__decoration {
+  color: #99e2d0;
+  font-size: larger;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  line-height: 0.2;
+  margin-bottom: 10px;
+}
+.menu .menu__section {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: flex-end;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+.menu__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__section h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.menu__text p {
+  font-weight: 300;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@-webkit-keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.menu__section {
+  -webkit-animation: 1s ease-in 0s 1 fadeInAnimation;
+          animation: 1s ease-in 0s 1 fadeInAnimation;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.animation-delay-1 {
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+}
+
+.animation-delay-2 {
+  -webkit-animation-delay: 1200ms;
+          animation-delay: 1200ms;
+}
+
+.animation-delay-3 {
+  -webkit-animation-delay: 1800ms;
+          animation-delay: 1800ms;
+}
+
+@-webkit-keyframes fadeInAnimation2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAnimation2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.main-content {
+  -webkit-animation: fadeInAnimation2 ease 3s;
+          animation: fadeInAnimation2 ease 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}/*# sourceMappingURL=main.css.map */
