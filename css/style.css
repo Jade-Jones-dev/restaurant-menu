@@ -471,7 +471,7 @@ footer a {
   margin-top: -15px;
   border-radius: 0 20px 20px 0;
   opacity: 100%;
-  transition: opacity 3s;
+  animation: fadeIn ease 3s;
 }
 
 .checkmark i {
@@ -494,6 +494,14 @@ footer a {
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 .menu__section {

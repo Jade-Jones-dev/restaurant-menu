@@ -124,7 +124,7 @@ a{
     margin-top: -15px;
     border-radius: 0 20px 20px 0;
     opacity: 100%;
-    transition: opacity 3s;
+    animation: fadeIn ease 3s;
 }
 
 .checkmark i{
