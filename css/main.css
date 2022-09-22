@@ -176,8 +176,10 @@ a {
 
 .solid-heart:hover {
   background: -webkit-linear-gradient(#9356dc, #ff79da);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: transparent;
   transition: 5s;
 }
 

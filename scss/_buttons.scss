@@ -98,8 +98,10 @@
 }
 .solid-heart:hover{
     background: -webkit-linear-gradient($primary-color, $secondary-color);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    color:transparent;
     transition: 5s;
 }
 
