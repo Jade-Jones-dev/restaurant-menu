@@ -96,6 +96,10 @@
 
 
 }
+
+.solid-heart{
+    color:blue;
+}
 .solid-heart:hover{
     background: -webkit-linear-gradient($primary-color, $secondary-color);
     background-clip: text;

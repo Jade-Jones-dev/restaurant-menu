@@ -1,10 +1,13 @@
 {
-  "name": "writing-sass",
+  "name": "project-3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+    "sass": "sass --watch ./scss/main.scss:./css/style.css"
   },
   "repository": {
     "type": "git",
