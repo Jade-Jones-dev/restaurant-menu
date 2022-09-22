@@ -127,9 +127,12 @@ a{
 .checkmark i{
     font-size: 30px;
     color: $base-color;
-    background-color: transparent;
+    margin: auto;
 }
 
 .checkmark i:hover{
-    animation: spin2 3s ease-in forwards;
+    animation-name: spin2;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
 }
