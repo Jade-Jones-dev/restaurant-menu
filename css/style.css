@@ -446,6 +446,7 @@ footer a {
 
 .checkmark {
   display: none;
+  opacity: 0%;
 }
 
 .menu__section:hover .menu__price {
@@ -469,6 +470,8 @@ footer a {
   margin-bottom: -15px;
   margin-top: -15px;
   border-radius: 0 20px 20px 0;
+  opacity: 100%;
+  transition: opacity 3s;
 }
 
 .checkmark i {
@@ -479,8 +482,7 @@ footer a {
 
 .checkmark i:hover {
   animation-name: spin2;
-  animation-duration: 1s;
-  animation-iteration-count: 2;
+  animation-duration: 1500ms;
   animation-timing-function: ease-in-out;
 }
 
@@ -564,7 +566,7 @@ footer a {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(720deg);
   }
 }
 
