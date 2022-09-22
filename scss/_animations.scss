@@ -26,6 +26,8 @@
     animation-delay: 1800ms;
 }
 
+/*
+
 @keyframes fadeInAnimation2{
     0%{
         opacity: 0;
@@ -39,5 +41,55 @@
 .main-content{
 animation: fadeInAnimation2 ease 3s;
 animation-iteration-count: 1;
+animation-delay:3s;
 animation-fill-mode: forwards;
+}*/
+
+@keyframes fadeOutLoader{
+    0%{
+        opacity:1;
+        z-index: 5000;
+    }
+
+    97%{
+        opacity:1;
+        z-index: 1000;
+    }
+  
+    100%{
+        opacity: 0;
+        z-index: -50;
+    }
 }
+
+.intro-page {
+  align-items: center;
+  background: lighten($main-color, 70%);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: opacity 0.2s linear;
+  width: 100%;
+  transform: opacity 1s linear;
+  animation: fadeOutLoader 3s ease-in forwards; 
+}
+
+.loader {
+  border: 20px solid $primary-color; /* Light grey */
+  border-top: 20px solid $secondary-color; /* Blue */
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
