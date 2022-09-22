@@ -27,7 +27,6 @@
     margin: auto;
     margin-bottom: 20px;
     font-weight: 800;
-
             i{
                 color: $primary-color;
                 font-size: 20px;
@@ -35,7 +34,6 @@
                 margin-left: 15px;
             }
     
-
     &:hover {
         background-color:lighten($primary-color, 30%);
         box-shadow: 0 5px 15px rgb(0 0 0 / 0.4);

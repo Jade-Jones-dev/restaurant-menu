@@ -19,7 +19,6 @@ a{
 
 
 .menus{
-    
     position: relative;
     top:-40px;
     height: auto;
@@ -57,7 +56,6 @@ a{
         margin-bottom: 0;
         padding-top: 25px;
     }
-
 &__decoration {
         color: $tertiary-color;
         font-size: larger;
@@ -65,7 +63,6 @@ a{
         padding-bottom: 10px;
         line-height: 0.2;
         margin-bottom: 10px;
-
     }
 
     .menu__section {
@@ -127,16 +124,11 @@ a{
     border-radius: 0 20px 20px 0;
 }
 
-
-
-
 .checkmark i{
     font-size: 30px;
     color: $base-color;
     background-color: transparent;
 }
-
-
 
 .checkmark i:hover{
     animation: spin2 3s ease-in forwards;
