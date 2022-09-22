@@ -160,14 +160,22 @@ a {
 .heart-icon {
   border: none;
   padding: 5px;
+  position: relative;
+  height: 50px;
+  width: 50px;
+}
+
+.outline-heart {
+  opacity: 1;
 }
 
 .outline-heart:hover {
-  display: none;
+  opacity: 0;
 }
 
 .solid-heart {
-  color: blue;
+  color: white;
+  opacity: 0;
 }
 
 .solid-heart:hover {
@@ -176,7 +184,8 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
-  transition: 5s;
+  opacity: 1;
+  transition: 2s ease-in;
 }
 
 .menu .menu__section, .card__intro, footer, header, .cards, .intro, .search, .booking__button, .menus__button {
