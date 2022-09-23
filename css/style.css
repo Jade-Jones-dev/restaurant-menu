@@ -477,10 +477,9 @@ footer a {
   margin: auto;
 }
 
-.checkmark i:hover {
-  animation-name: spin2;
-  animation-duration: 1500ms;
-  animation-timing-function: ease-in-out;
+.menu__section:hover i {
+  animation: 1s linear 0s spin2;
+  animation-delay: 500ms;
 }
 
 @keyframes fadeInAnimation {
@@ -592,11 +591,9 @@ footer a {
   }
 }
 @keyframes spin2 {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(720deg);
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
