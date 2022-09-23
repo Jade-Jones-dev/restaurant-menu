@@ -539,18 +539,33 @@ footer a {
   align-content: center;
   height: 100vh;
   justify-content: center;
-  left: 0;
   position: fixed;
+  left: 0;
   top: 0;
-  transition: opacity 0.2s linear;
   width: 100%;
-  transform: opacity 1s linear;
-  animation: fadeOutLoader 3s ease-in forwards;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+
+.main-content {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 3.5s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: ease-in;
+  animation-fill-mode: both;
 }
 
 .loader {
-  border: 20px solid #9356dc;
-  border-top: 20px solid #ff79da;
+  border: 20px dotted #9356dc;
+  border-top: 20px dotted #ff79da;
+  border-bottom: 20px dotted #99e2d0;
   border-radius: 50%;
   width: 300px;
   height: 300px;
