@@ -478,8 +478,8 @@ footer a {
 }
 
 .menu__section:hover i {
-  animation: 1s linear 0s spin2;
-  animation-delay: 500ms;
+  animation: 500ms ease 0s spin2;
+  animation-delay: 400ms;
 }
 
 @keyframes fadeInAnimation {
@@ -591,8 +591,10 @@ footer a {
   }
 }
 @keyframes spin2 {
+  0% {
+    transform: rotate(180deg);
+  }
   100% {
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }

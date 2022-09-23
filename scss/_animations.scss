@@ -112,5 +112,7 @@
   100% { transform: rotate(360deg); }
 }
 
-@keyframes spin2 { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@keyframes spin2 { 
+  0%{transform: rotate(180deg);}
+  100% {transform:rotate(360deg); } }
 
