@@ -85,17 +85,15 @@
 .heart-transform{
     border: inline-block;
     position: absolute;
-    font-size: 20px;
+    font-size: 25px;
     right:10px;
-    margin-top: 2px;
-    padding-bottom: 1.5rem;
 }
 
 .solid{
     position: absolute;
-    right: 15px;
+    right: 10px;
     opacity: 0;
-    background: linear-gradient(to top,$primary-color, $secondary-color);
+    background: linear-gradient(to left top,$primary-color, $secondary-color);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -105,7 +103,7 @@
 .solid:hover{
     position: absolute;
     opacity: 100%;
-    background: linear-gradient(to top,$primary-color, $secondary-color);
+    background: linear-gradient(to left top,$primary-color, $secondary-color);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -114,7 +112,7 @@
 
 .outline{
     position: absolute;
-    right:15px;
+    right:10px;
     opacity: 100%;
     transition: opacity 3s;
 
