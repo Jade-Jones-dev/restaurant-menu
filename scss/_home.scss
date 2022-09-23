@@ -61,10 +61,14 @@ footer{
         }
         a{
             color: $base-color;
+            font-size: 16px;
             margin-bottom: 2px;
         }
 }
 
+.footer a{
+    font-size: 16px;
+}
 .cards{
     h2{
         margin-bottom: 10px;
@@ -103,6 +107,5 @@ footer{
 .card__p{
     font-weight: 400;
 }
-
 
 

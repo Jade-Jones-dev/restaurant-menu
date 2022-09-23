@@ -9,6 +9,64 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+@media screen and (min-width: 900px) {
+  html {
+    background-image: url(../images/nordwood-themes-KcsKWw77Ovw-unsplash.jpg);
+    width: 100%;
+    object-fit: cover;
+  }
+  header {
+    width: 50%;
+    margin: auto;
+    background-color: white;
+  }
+  .menu__header {
+    width: 50%;
+    margin: auto;
+    background-color: white;
+  }
+  .search {
+    width: 50%;
+    margin: auto;
+  }
+  .booking {
+    width: 50%;
+    margin: auto;
+  }
+  .intro {
+    width: 50%;
+    margin: auto;
+    background-color: white;
+  }
+  .cards {
+    width: 50%;
+    margin: auto;
+  }
+  footer {
+    width: 50%;
+    margin: auto;
+  }
+  .footer__text {
+    width: 50%;
+    margin: auto;
+  }
+  .menu__image {
+    width: 50%;
+    margin: auto;
+  }
+  .menus {
+    width: 50%;
+    margin: auto;
+  }
+  footer a {
+    width: 50%;
+    margin: auto;
+  }
+  footer h2 {
+    width: 50%;
+    margin: auto;
+  }
+}
 @media screen and (min-width: 600px) {
   html {
     background-image: url(../images/nordwood-themes-KcsKWw77Ovw-unsplash.jpg);
@@ -309,7 +367,12 @@ footer h2 {
 }
 footer a {
   color: white;
+  font-size: 16px;
   margin-bottom: 2px;
+}
+
+.footer a {
+  font-size: 16px;
 }
 
 .cards h2 {
@@ -447,12 +510,11 @@ footer a {
 }
 
 .menu__section:hover .menu__price {
-  position: absolute;
-  right: 100px;
+  animation: 500ms ease-out 0s 1 fadeInAnimation2;
 }
 
 .menu__section:hover .menu__text {
-  width: 150px;
+  width: calc(100% - 120px);
 }
 
 .menu__section:hover .checkmark {
@@ -468,11 +530,12 @@ footer a {
   margin-top: -15px;
   border-radius: 0 20px 20px 0;
   opacity: 100%;
-  animation: 1500ms ease-out 0s 1 fadeInAnimation2;
+  animation: 500ms ease-out 0s 1 fadeInAnimation2;
 }
 
 .checkmark i {
   font-size: 30px;
+  padding: 0;
   color: white;
   margin: auto;
 }
@@ -502,12 +565,18 @@ footer a {
 }
 @keyframes fadeInAnimation2 {
   0% {
-    opacity: 0;
-    transform: translateX(25%);
+    transform: translateX(80px);
   }
   100% {
-    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes fadeInAnimation3 {
+  0% {
     transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-80px);
   }
 }
 .menu__section {

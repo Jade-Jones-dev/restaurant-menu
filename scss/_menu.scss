@@ -106,12 +106,12 @@ a{
 }
 
 .menu__section:hover .menu__price{
-    position: absolute;
-    right:100px;
+  
+    animation: 500ms ease-out 0s 1 fadeInAnimation2;
 }
 
 .menu__section:hover .menu__text{
-    width: 150px;
+    width: calc(100% - 120px);
 }
 
 .menu__section:hover .checkmark{
@@ -127,12 +127,13 @@ a{
     margin-top: -15px;
     border-radius: 0 20px 20px 0;
     opacity: 100%;
-    animation: 1500ms ease-out 0s 1 fadeInAnimation2;
+    animation: 500ms ease-out 0s 1 fadeInAnimation2;
   
 }
 
 .checkmark i{
     font-size: 30px;
+    padding: 0;
     color: $base-color;
     margin: auto;
 }
