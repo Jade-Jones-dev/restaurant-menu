@@ -66,10 +66,6 @@ body {
     width: 60%;
     margin: auto;
   }
-  .card i {
-    font-size: 30px;
-    font-weight: 100;
-  }
 }
 ::placeholder {
   color: #333333;
@@ -338,9 +334,11 @@ footer a {
   display: flex;
   justify-content: space-between;
   border-radius: 0 0 20px 20px;
+  position: relative;
 }
 .card__title {
   padding-bottom: 5px;
+  font-weight: 600;
 }
 .card img {
   height: 160px;
