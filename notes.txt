@@ -1,1 +1,6 @@
 Things to do
+ 
+--tidy up code
+--add comments
+--publish to git pages
+--send link
