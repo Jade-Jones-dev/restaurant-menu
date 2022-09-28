@@ -1,1 +1,0 @@
-Mobile food ordering app
