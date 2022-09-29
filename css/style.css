@@ -215,7 +215,7 @@ a {
 }
 
 .heart-transform {
-  border: inline-block;
+  /* border: inline-block; */
   position: absolute;
   font-size: 25px;
   right: 5px;
@@ -264,7 +264,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: space-between;
+  /* align-items: space-between; */
   text-align: center;
 }
 .booking__title {
