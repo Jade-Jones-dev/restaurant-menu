@@ -66,29 +66,46 @@ a{
     }
 
     .menu__section {
-        @extend %container;
+        padding:8px;
         @include box-shadow;
         width: 100%;
         display: flex;
         overflow: hidden;
+        position: relative;
         justify-content: space-between;
         background-color: $base-color;
-        align-items: flex-end;
         border-radius: 20px;
         margin-bottom: 15px;
         white-space: nowrap;
         text-overflow: ellipsis;
+        cursor: pointer;
     }
     &__text {
-        display: flex;
-        flex-direction: column;
+       max-width: calc(100% - 100px);
     }
+}
+
+.menu__section__text{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    transition: width 500ms;
+}
+
+.menu__price{
+    display:flex;
+    align-items: flex-end;
+    padding-top:24px;
 }
 
 .menu__section h3{
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .menu__text p{
@@ -101,34 +118,40 @@ a{
 // checkmark
 
 .checkmark{
-    display: none;
-    opacity: 0%;
+position: absolute;
+  right:0;
+  height: 87px;
+  display:flex;
+  justify-content: center;
+  margin-top: -13px;
+  margin-bottom: -12px;
+  width:60px;
+  background-color: $tertiary-color;
+  border-radius: 0 20px 20px 0;
+  transform: translateX(100%);
+  transition: transform 700ms;
+
 }
 
-.menu__section:hover .menu__price{
-  
-    animation: 500ms ease-out 0s 1 fadeInAnimation2;
-}
-
-.menu__section:hover .menu__text{
-    width: calc(100% - 120px);
+.menu__section:hover .menu__section__text{
+width:calc(100% - 60px);
+transition: width 700ms;
 }
 
 .menu__section:hover .checkmark{
-    display: flex;
-    width: 60px;
-    height:78px;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    background-color: $tertiary-color;
-    margin-right: -15px;
-    margin-bottom: -15px;
-    margin-top: -15px;
-    border-radius: 0 20px 20px 0;
-    opacity: 100%;
-    animation: 500ms ease-out 0s 1 fadeInAnimation2;
+    transform: translateX(0);
   
+  
+}
+
+.menu__section:hover .checkmark i{
+    transform: rotate(360deg);
+    transition: transform 700ms;
+  
+}
+
+.menu__section:hover .menu__price{
+
 }
 
 .checkmark i{
@@ -136,10 +159,11 @@ a{
     padding: 0;
     color: $base-color;
     margin: auto;
+    transform: none;
 }
-
+/*
 .menu__section:hover i{
     animation: 700ms ease 0s spin2;
     animation-delay: 400ms;
-}
+}*/
 
