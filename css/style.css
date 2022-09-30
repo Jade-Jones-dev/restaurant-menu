@@ -351,6 +351,128 @@ a {
   background-color: #f2f2f2;
 }
 
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeInAnimation2 {
+  0% {
+    transform: translateX(80px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes fadeInAnimation3 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-80px);
+  }
+}
+.menu__section {
+  animation: 1s ease-in 0s 1 fadeInAnimation;
+  animation-fill-mode: backwards;
+}
+
+.animation-delay-1 {
+  animation-delay: 600ms;
+}
+
+.animation-delay-2 {
+  animation-delay: 1200ms;
+}
+
+.animation-delay-3 {
+  animation-delay: 1800ms;
+}
+
+@keyframes fadeOutLoader {
+  0% {
+    opacity: 1;
+    z-index: 5000;
+  }
+  97% {
+    opacity: 1;
+    z-index: 1000;
+  }
+  100% {
+    opacity: 0;
+    z-index: -50;
+  }
+}
+.intro-page {
+  align-items: center;
+  background: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+
+.main-content {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 3.5s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+
+.loader {
+  border: 20px dotted #9356dc;
+  border-top: 20px dotted #ff79da;
+  border-bottom: 20px dotted #99e2d0;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin2 {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 header {
   display: flex;
   justify-content: center;
@@ -600,134 +722,6 @@ footer a {
   color: white;
   margin: auto;
   transform: none;
-}
-
-/*
-.menu__section:hover i{
-    animation: 700ms ease 0s spin2;
-    animation-delay: 400ms;
-}*/
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-    transform: translateY(25%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes fadeInAnimation2 {
-  0% {
-    transform: translateX(80px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
-@keyframes fadeInAnimation3 {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-80px);
-  }
-}
-.menu__section {
-  animation: 1s ease-in 0s 1 fadeInAnimation;
-  animation-fill-mode: backwards;
-}
-
-.animation-delay-1 {
-  animation-delay: 600ms;
-}
-
-.animation-delay-2 {
-  animation-delay: 1200ms;
-}
-
-.animation-delay-3 {
-  animation-delay: 1800ms;
-}
-
-@keyframes fadeOutLoader {
-  0% {
-    opacity: 1;
-    z-index: 5000;
-  }
-  97% {
-    opacity: 1;
-    z-index: 1000;
-  }
-  100% {
-    opacity: 0;
-    z-index: -50;
-  }
-}
-.intro-page {
-  align-items: center;
-  background: #e6e6e6;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  height: 100vh;
-  justify-content: center;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  animation-name: fadeIn;
-  animation-duration: 1s;
-  animation-delay: 3s;
-  animation-iteration-count: 1;
-  animation-direction: reverse;
-  animation-timing-function: ease-in;
-  animation-fill-mode: both;
-}
-
-.main-content {
-  animation-name: fadeIn;
-  animation-duration: 1s;
-  animation-delay: 3.5s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-timing-function: ease-in;
-  animation-fill-mode: both;
-}
-
-.loader {
-  border: 20px dotted #9356dc;
-  border-top: 20px dotted #ff79da;
-  border-bottom: 20px dotted #99e2d0;
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
-  animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes spin2 {
-  0% {
-    transform: rotate(180deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

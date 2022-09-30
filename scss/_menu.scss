@@ -17,7 +17,6 @@ a{
     }
 }
 
-
 .menus{
     position: relative;
     top:-40px;
@@ -45,7 +44,6 @@ a{
         
     }
 }
-
 
 .menu{
     padding: 0 20px;
@@ -130,7 +128,6 @@ position: absolute;
   border-radius: 0 20px 20px 0;
   transform: translateX(100%);
   transition: transform 700ms;
-
 }
 
 .menu__section:hover .menu__section__text{
@@ -139,20 +136,14 @@ transition: width 700ms;
 }
 
 .menu__section:hover .checkmark{
-    transform: translateX(0);
-  
-  
+    transform: translateX(0);  
 }
 
 .menu__section:hover .checkmark i{
     transform: rotate(360deg);
-    transition: transform 700ms;
-  
+    transition: transform 700ms; 
 }
 
-.menu__section:hover .menu__price{
-
-}
 
 .checkmark i{
     font-size: 30px;
@@ -161,9 +152,5 @@ transition: width 700ms;
     margin: auto;
     transform: none;
 }
-/*
-.menu__section:hover i{
-    animation: 700ms ease 0s spin2;
-    animation-delay: 400ms;
-}*/
+
 
