@@ -176,6 +176,63 @@ a {
   font-size: 20px;
 }
 
+.card__intro, footer, header, .menus__button, .booking__button, .cards, .intro, .search {
+  padding: 15px;
+}
+
+.booking {
+  padding: 30px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  text-align: center;
+}
+.booking__title {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+.booking p {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.search {
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: center;
+}
+.search input {
+  border: none;
+  background-color: #e6e6e6;
+  padding-left: 20px;
+}
+
+.intro {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+.intro__buttons {
+  display: flex;
+  flex-direction: column;
+}
+.intro h2 {
+  padding-left: 30px;
+}
+.intro__title {
+  padding-bottom: 10px;
+}
+
+.cards {
+  background-color: #f2f2f2;
+}
+
 .booking__button {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   color: white;
@@ -292,63 +349,6 @@ a {
 .outline:hover {
   opacity: 0;
   transition: opacity 3s;
-}
-
-.card__intro, footer, header, .cards, .intro, .search, .booking__button, .menus__button {
-  padding: 15px;
-}
-
-.booking {
-  padding: 30px;
-  background-color: #f2f2f2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: space-between;
-  text-align: center;
-}
-.booking__title {
-  padding-bottom: 20px;
-  font-size: 20px;
-  font-weight: 900;
-  letter-spacing: -1px;
-}
-.booking p {
-  font-size: 16px;
-  padding-bottom: 20px;
-}
-
-.search {
-  background-color: #e6e6e6;
-  display: flex;
-  justify-content: center;
-}
-.search input {
-  border: none;
-  background-color: #e6e6e6;
-  padding-left: 20px;
-}
-
-.intro {
-  display: flex;
-  text-align: left;
-  justify-content: center;
-  flex-direction: column;
-  margin: auto;
-}
-.intro__buttons {
-  display: flex;
-  flex-direction: column;
-}
-.intro h2 {
-  padding-left: 30px;
-}
-.intro__title {
-  padding-bottom: 10px;
-}
-
-.cards {
-  background-color: #f2f2f2;
 }
 
 @keyframes fadeInAnimation {
