@@ -20,7 +20,7 @@ body{
     background-color: white;
   }
   .menu__header {
-    width: 600px;
+    width:600px;
     margin: auto;
     background-color: white;
   }
@@ -65,7 +65,112 @@ body{
     width: 600px;
     margin: auto;
   }
-} /*
+  .cards-row{
+    display:flex;
+    flex-direction: row;
+  }
+  .card{
+    width:48%;
+  }
+  .card-row{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .new-image{
+    width:97%;
+
+  }
+  .new-image .card{
+    width: 96%;
+  }
+ 
+
+
+}
+
+@media screen and (min-width: 800px) {
+  html {
+    background-image: url(../images/nordwood-themes-KcsKWw77Ovw-unsplash.jpg);
+    width: 100%;
+    object-fit: cover;
+  }
+  header {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+  }
+  .menu__header {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+  }
+  .search {
+    width: 70%;
+    margin: auto;
+  }
+  .booking {
+    width: 70%;
+    margin: auto;
+  }
+  .intro {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+  }
+  .cards {
+    width: 70%;
+    margin: auto;
+  }
+  footer {
+    width: 70%;
+    margin: auto;
+  }
+  .footer__text {
+    width: 70%;
+    margin: auto;
+  }
+  .menu__image {
+    width: 70%;
+    margin: auto;
+  }
+  .menus {
+    width: 70%;
+    margin: auto;
+  }
+  footer a {
+    width: 70%;
+    margin: auto;
+  }
+  footer h2 {
+    width: 70%;
+    margin: auto;
+  }
+  .cards-row{
+    display:flex;
+    flex-direction: row;
+  }
+  .card{
+    width:48%;
+  }
+  .card-row{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .new-image{
+    width:97%;
+
+  }
+  .new-image .card{
+    width: 96%;
+  }
+ 
+
+
+}
+
+/*
 @media screen and (min-width: 600px) {
   html {
     background-image: url(../images/nordwood-themes-KcsKWw77Ovw-unsplash.jpg);
