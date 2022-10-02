@@ -186,6 +186,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: space-between;
   text-align: center;
 }
 .booking__title {
@@ -311,6 +312,7 @@ a {
 }
 
 .heart-transform {
+  border: inline-block;
   position: absolute;
   font-size: 25px;
   right: 5px;
@@ -710,7 +712,7 @@ footer a {
 }
 
 .menu__section:hover .checkmark i {
-  transform: rotate(360deg);
+  transform: rotate(720deg);
   transition: transform 700ms;
 }
 
