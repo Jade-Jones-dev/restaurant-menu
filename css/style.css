@@ -84,6 +84,16 @@ body {
     width: 96%;
   }
 }
+@media screen and (min-width: 1100px) {
+  .the__menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .menu {
+    width: 33%;
+  }
+}
 @media screen and (min-width: 800px) {
   html {
     background-image: url(../images/nordwood-themes-KcsKWw77Ovw-unsplash.jpg);
@@ -91,12 +101,12 @@ body {
     object-fit: cover;
   }
   header {
-    width: 70%;
+    width: 80%;
     margin: auto;
     background-color: white;
   }
   .menu__header {
-    width: 70%;
+    width: 80%;
     margin: auto;
     background-color: white;
   }
@@ -107,44 +117,44 @@ body {
     text-align: center;
   }
   .search {
-    width: 70%;
+    width: 80%;
     margin: auto;
   }
   .booking {
-    width: 70%;
+    width: 80%;
     margin: auto;
   }
   .intro {
-    width: 70%;
+    width: 80%;
     margin: auto;
     background-color: white;
   }
   .cards {
-    width: 70%;
+    width: 80%;
     margin: auto;
   }
   footer {
-    width: 70%;
+    width: 80%;
     margin: auto;
   }
   .footer__text {
-    width: 70%;
+    width: 80%;
     margin: auto;
   }
   .menu__image {
-    width: 70%;
+    width: 80%;
     margin: auto;
   }
   .menus {
-    width: 70%;
+    width: 80%;
     margin: auto;
   }
   footer a {
-    width: 70%;
+    width: 80%;
     margin: auto;
   }
   footer h2 {
-    width: 70%;
+    width: 80%;
     margin: auto;
   }
   .cards-row {
