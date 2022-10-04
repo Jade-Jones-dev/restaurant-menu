@@ -93,6 +93,9 @@ body {
   .menu {
     width: 33%;
   }
+  .menu__content {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 800px) {
   html {
@@ -101,12 +104,12 @@ body {
     object-fit: cover;
   }
   header {
-    width: 80%;
+    width: 100%;
     margin: auto;
     background-color: white;
   }
   .menu__header {
-    width: 80%;
+    width: 100%;
     margin: auto;
     background-color: white;
   }
@@ -134,27 +137,27 @@ body {
     margin: auto;
   }
   footer {
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
   .footer__text {
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
   .menu__image {
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
   .menus {
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
   footer a {
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
   footer h2 {
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
   .cards-row {
