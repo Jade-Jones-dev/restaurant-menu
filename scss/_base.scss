@@ -138,28 +138,41 @@ body{
   }
   .search {
     width: 65%;
+    max-width: 1100px;
     margin: auto;
   }
   .booking {
     width: 65%;
+    max-width: 1100px;
+    margin: auto;
+  }
+
+    .cards {
+    width: 65%;
+    max-width: 1100px;
     margin: auto;
   }
   .intro {
     width: 65%;
+    max-width: 1100px;
     margin: auto;
     background-color: white;
   }
 
+
   #index-footer .footer__text{
     width:65%;
+    max-width: 1100px;
   }
 
   #index-footer a{
     width:65%;
+    max-width: 1100px;
   }
 
   #index-footer h2{
     width:65%;
+    max-width: 1100px;
   }
   .cards {
     width: 65%;
@@ -171,22 +184,39 @@ body{
   }
   .footer__text {
     width: 100%;
+    max-width: 1300px;
+    margin: auto;
+  }
+
+  .footer h2{
+     width: 100%;
+    max-width: 1300px;
     margin: auto;
   }
   .menu__image {
     width: 100%;
+    max-width: 1300px;
+    margin: auto;
+  }
+
+  .menu__header{
+       width: 100%;
+    max-width: 1300px;
     margin: auto;
   }
   .menus {
     width: 100%;
+    max-width: 1300px;
     margin: auto;
   }
   footer a {
     width: 100%;
+    max-width: 1300px;
     margin: auto;
   }
   footer h2 {
     width: 100%;
+    max-width: 1300px;
     margin: auto;
   }
   .cards-row{

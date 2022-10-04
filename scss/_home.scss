@@ -22,6 +22,7 @@ header{
     background-color: $tertiary-color;
     padding: 7px 25px;
     color: #1a5b4b;
+    border-radius: 5px;
 
 }
 
@@ -94,6 +95,7 @@ footer{
         position: relative;
     }
     &__title{
+        font-size: 18px;
         padding-bottom: 5px;
         font-weight: 600;
     }
@@ -105,6 +107,7 @@ footer{
 }
 
 .card__p{
+    font-size: 17px;
     font-weight: 400;
 }
 
