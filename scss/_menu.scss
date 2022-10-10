@@ -89,7 +89,7 @@ a{
     display: flex;
     justify-content: space-between;
     width:100%;
-    transition: width 900ms;
+    transition: width 750ms;
 }
 
 .menu__price{
@@ -128,12 +128,12 @@ position: absolute;
   background-color: $tertiary-color;
   border-radius: 0 20px 20px 0;
   transform: translateX(100%);
-  transition: transform 900ms;
+  transition: transform 750ms;
 }
 
 .menu__section:hover .menu__section__text{
 width:calc(100% - 60px);
-transition: width 900ms;
+transition: width 750ms;
 }
 
 .menu__section:hover .checkmark{
