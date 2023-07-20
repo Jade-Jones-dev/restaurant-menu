@@ -1,16 +1,15 @@
 
-**Restaurant Menu Repository**
+**Restaurant Menu **
 
 See live site at: https://friendly-macaron-3865ee.netlify.app
 
-Welcome to the Restaurant Menu repository! This project aims to create a dynamic and interactive menu restaurants, providing a user-friendly interface for customers to explore the delightful culinary offerings. The menu includes various categories, dishes, and pricing details, making it easier for both customers and restaurant staff to navigate and manage the menu efficiently.
+Welcome to the Restaurant Menu repository! This project aims to create a dynamic and interactive menu for restaurants, providing a user-friendly interface for customers to explore the delightful culinary offerings. The menu includes various categories, dishes, and pricing details, making it easier for both customers and restaurant staff to navigate and manage the menu efficiently.
 
 ## Table of Contents
 
 - [Features](#features)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -30,10 +29,6 @@ We welcome contributions from the community! To contribute to the project, follo
 4. Push the changes to your forked repository: `git push origin my-feature`.
 5. Submit a pull request to the `main` branch of this repository.
 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
